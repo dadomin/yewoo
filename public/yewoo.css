@@ -1,0 +1,37 @@
+/* 예우엔터테인먼트 페이지 - /yewoo */
+#yewoo-top-menu {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255,255,255,.35);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#yewoo-top-menu > li {
+    margin: 0 20px;
+    cursor: pointer;
+}
+#yewoo-1 {
+    width: 100%;
+    height: 1000px;
+    background-color: #000;
+}
+#yewoo-2 {
+    width: 100%;
+    height: 1000px;
+    background-color: #111;
+}
+#yewoo-3 {
+    width: 100%;
+    height: 1000px;
+    background-color: #222;
+}
+#yewoo-4 {
+    width: 100%;
+    height: 1000px;
+    background-color: #333;
+}
