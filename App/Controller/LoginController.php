@@ -28,7 +28,7 @@ class LoginController extends MasterController {
 		}
 
 		$_SESSION['user'] = $user;
-
+		
 		DB::msgAndGo("로그인되었습니다.", "/");
 	}
 

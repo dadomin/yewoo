@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 ul, li {
@@ -26,224 +27,39 @@ button {
     cursor: pointer;
 }
 
-/* 헤더 */
+.in {
+    width: 1200px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* header */
 header {
     width: 100%;
     height: 70px;
-    background-color: rgba(0,0,0,.25);
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 30;
-}
-
-.header-logo {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    font-weight: bold;
-    
-    color: #fff;
-}
-
-#header-menu-open {
-    position: absolute;
-    left: 30px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #fff;
-    font-size: 21px;
-}
-
-#header-menu-back {
-    visibility: hidden;
-    opacity: 0;
-    position: fixed;
-    z-index: 20 ;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,.75);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: .6s;
-    
-}
-#header-menu > li {
-    margin-bottom: 12px;
-    text-align: center;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 6px;
-}
-#header-menu > li > a{
-    color: #fff;
-}
-#header-menu-close {
-    position: fixed;
-    left: 50px;
-    top: 50px;
-    font-size: 50px ;
-    color: #fff;
-}
-
-/* 푸터 */
-footer {
-    width: 100%;
-    height: 60px;
-    position: relative;
-    background-color: #272727;
-    color: #fff;
-}
-#home-container ~ footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0,0,0,.5);
-}
-footer > * {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-#footer-sns {
-    left: 50px;
-}
-#footer-sns > li {
-    float: left;
-    width: 30px;
-    height: 30px;
-    margin: 0 6px;
-    cursor: pointer;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 30px;
-    background-color: #181818;
-}
-#home-container ~ footer > #footer-sns > li {
-    background-color: rgba(0,0,0,.75);
-}
-#footer-sns > li > a {
-    color: rgba(255, 255, 255, .35);
-}
-footer> div{
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: none;
-    border: none;
-    border-bottom: 1.2px solid rgba(255, 255, 255, .35);
-    color: rgba(255, 255, 255, .35);
-    padding: 7px 30px;
-    font-size: 18px;
-    width: 300px;
-    text-align: center;
-    cursor: pointer;
-}
-footer > div:hover {
-    background-color: rgba(0,0,0,.35);
-}
-footer > div > #footer-page {
-    position: absolute;
-    width: 100%;
-    bottom: 100%;
-    left: 0;
-    transition: .4s;
-    visibility: hidden;
-    opacity: 0;
-}
-footer > div:hover > #footer-page {
-    visibility: visible;
-    opacity: 1;
-}
-#footer-page > li {
-    width: 100%;
-    height: 35px;
-    background-color: rgba(0,0,0,.35);
-    line-height: 35px;
-    border-bottom: 1.2px solid rgba(0,0,0,0);
-    cursor: pointer;
-}
-#footer-page > li:hover {
-    background-color: rgba(0,0,0, .25);
-}
-#footer-page > li > a {
-    color: rgba(255, 255, 255, .35);
-}
-footer > p {
-    right: 50px;
-    font-size: 12px;
-    color: rgba(255, 255, 255, .25);
-}
-
-
-/* 메인 */
-#home-container {
-    width: 600%;
-    height: 100%;
-    background-color: #eee;
-    position: fixed;
-    left: 0;
-    top: 0;
+    background-color: #ccc;
+    position: sticky;
     display: flex;
     flex-direction: row;
-}
-#home-container > div {
-    flex: 1;
-    height: 100%;
-    cursor: pointer;
-}
-.home-1 {
-    background-color:red;
-    display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
-.home-1 > video {
-    width: 100% !important;
-    height: auto !important;
-}
-.home-2 {
-    background-color: orange;
-}
-.home-3 {
-    background-color: yellow;
-}
-.home-4 {
-    background-color: green;
-}
-.home-5 {
-    background-color: blue;
-}
-.home-6 {
-    background-color:purple;
-}
-.home-btn {
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 10;
-    cursor: pointer;
-}
-#home-left,
-#home-right {
-    color: rgba(255, 255, 255, .35);
-    font-size: 70px;
-    outline: none;
-}
-#home-left {
-    left: 30px;
-}
-#home-right {
-    right: 30px;
+
+    #header-menu > li  {
+        float: left;
+        margin: 0 17px;
+    }
+
+/* footer */
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #ddd;
 }
 
-/* 맨 아래 버튼 */
-#down-btn {
-    position: fixed;
-    z-index: 10;
-    bottom: 70px;
-    right: 70px;
-    cursor: pointer;
+/* main-section */
+#main {
+    width: 100%;
+    height: 500px;
 }
