@@ -13,3 +13,24 @@
         <li><a href="/">Notice</a></li>
     </ul>
 </header>
+
+<!-- model title -->
+<section id="model-title">
+    TITLE
+</section>
+
+<!-- model-container -->
+<section id="model-container">
+    <div class="model-container-in">
+        <div class="profile-box">
+            <img src="/img/model/" alt="">
+        </div>
+        <div class="profile-box"></div>
+        <div class="profile-box"></div>
+        <div class="profile-box"></div>
+        <div class="profile-box"></div>
+        <div class="profile-box"></div>
+        <div class="profile-box"></div>
+        <div class="profile-box"></div>
+    </div>
+</section>
