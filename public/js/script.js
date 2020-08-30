@@ -11,12 +11,9 @@ function log(msg) {
 
 class App {
 	constructor(){
-		$("#header-menu-open").on("click", ()=>{
-			$("#header-menu-back").css({"visibility" : "visible", "opacity" : 1});
-		});
-		$("#header-menu-close").on("click",()=>{
-			$("#header-menu-back").css({"visibility" : "hidden", "opacity" : 0});
-		});
+		// $(document).on("scroll", ()=>{
+			
+		// });
 	}
 }
 

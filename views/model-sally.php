@@ -78,7 +78,7 @@
         <div class="model-career-boxes">
             <h3><span>ㅡ</span>방송</h3>
             <ul class="model-career-box">
-                <li>신비한 TV 서프라이즈[2020]</li>
+                <li>신비한 TV 서프라이즈[MBC/2020]</li>
             </ul>
         </div>
 
@@ -124,7 +124,22 @@
 
 <!-- model - gallery -->
 <section id="model-gallery">
-
+    <h3>갤러리</h3>
+    <div class="model-gallery-box">
+        <div><img src="/img/sally/7.jpg" alt=""></div>
+        <div><img src="/img/sally/8.jpg" alt=""></div>
+        <div><img src="/img/sally/9.jpg" alt=""></div>
+        <div><img src="/img/sally/10.jpg" alt=""></div>
+        <div><img src="/img/sally/11.jpg" alt=""></div>
+        <div><img src="/img/sally/12.jpg" alt=""></div>
+        <div><img src="/img/sally/13.jpg" alt=""></div>
+        <div><img src="/img/sally/14.jpg" alt=""></div>
+        <div><img src="/img/sally/15.jpg" alt=""></div>
+        <div><img src="/img/sally/16.jpg" alt=""></div>
+        <div><img src="/img/sally/17.jpg" alt=""></div>
+        <div><img src="/img/sally/18.jpg" alt=""></div>
+        <div><img src="/img/sally/19.jpg" alt=""></div>
+    </div>
 </section>
 
 <section id="model-video">

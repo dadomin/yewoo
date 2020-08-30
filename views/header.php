@@ -17,7 +17,7 @@
 
 <!-- header -->
 <header>
-    <a href="/" id="logo"><img src="/img/page/logo-black.png" alt="logo"></a>
+    <a href="/" id="logo"><img src="/img/page/logo-red.png" alt="logo"></a>
     <ul id="header-menu">
         <li><a href="/company">Company</a></li>
         <li><a href="/musician/group">Musicians</a></li>

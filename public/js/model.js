@@ -27,3 +27,25 @@ $(".model-profile-left").on("click", (e)=>{
     let src = "/img/" +$(".model-profile-img").attr("src").split("img/")[1].split("/")[0] + "/" + n+".jpg";
     $(".model-profile-img").attr("src", src);
 });
+
+$(".model-gallery-box > div").on("click", (e)=>{
+    let img = $(e.target)[0];
+    log(img.src);
+    makePopUp(img.src);
+});
+
+function makePopUp(img){
+    let div = document.createElement("div"); 
+    div.classList.add("pop-up-all")
+    div.innerHTML = `
+        <div class="pop-up-back"></div>
+        <div class="pop-up-show">
+            <img src="${img}">
+        </div>
+    `;
+    div.querySelector(".pop-up-back").addEventListener("click", ()=>{
+        log("a");
+        $(".pop-up-all").remove();
+    });
+    $("body").append(div);
+}
