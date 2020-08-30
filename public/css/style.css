@@ -41,11 +41,11 @@ header {
     width: 100%;
     height: 70px;
     background-color: #ccc;
-    position: sticky;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    z-index: 300;
 }
 
     #header-menu > li  {

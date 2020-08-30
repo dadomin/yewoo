@@ -6,5 +6,9 @@
 		</div>
 	</footer>
 
+	<div id="go-top">
+		
+	</div>
+
 </body>
 </html>
