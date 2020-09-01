@@ -1,11 +1,13 @@
 <!-- musician title -->
-<section id="musician-title">
-    MUSICIAN
+<section id="pro-title">
+    <img src="/img/page/logo-red.png" alt="">
+    <p>MUSICIANS</p>
+    <div></div>
 </section>
 
-<ul>
+<ul id="pro-tab">
     <li><a href="/musician/group">GROUP</a></li>
-    <li><a href="/musician/solo">SOLO</a></li>
+    <li><a href="/musician/solo" class="active">SOLO</a></li>
 </ul>
 
 <!-- musician section -->

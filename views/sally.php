@@ -4,40 +4,32 @@
     <li name="model-career">CAREER</li>
     <li name="model-gallery">GALLERY</li>
     <li name="model-video">VIDEO</li>
-    <li name="model-print">PRINT</li>
     <li name="model-contact">CONTACT</li>
 </ul>
 
 <!-- model - profile -->
 <section id="model-profile">
-    <div class="model-name">
-        <h3>SALLY</h3>
-        <div class="line"></div>
-    </div>
-    <div class="model-profile-in">
-        <img src="/img/sally/1.jpg" alt="" class="model-profile-img">
-        <span class="model-profile-left"><i class="fas fa-chevron-left"></i></span>
-        <span class="model-profile-right"><i class="fas fa-chevron-right"></i></span>
-    </div>
 
-    <div class="model-boxes">
-        <div class="model-box">
-            <img src="/img/sally/1.jpg" alt="">
+    <div class="model-info">
+        <div>
+            <div class="model-info-name">
+                <span>NAME</span>
+                <p>SALLY</p>
+                <p>살리</p>
+            </div>
+            <div class="model-info-des">
+                <div><span>Birth</span><p>1994.07.30</p></div>
+                <div><span>Height</span><p>162cm</p></div>
+                <div><span>Weight</span><p>43kg</p></div>
+                <div><span>3-inch</span><p>32-21-34</p></div>
+                <div><span>Shoe</span><p>245mm</p></div>
+                <button>Download Profile <i class="fas fa-download-"></i></button>
+            </div>
         </div>
-        <div class="model-box">
-            <img src="/img/sally/2.jpg" alt="">
-        </div>
-        <div class="model-box">
-            <img src="/img/sally/3.jpg" alt="">
-        </div>
-        <div class="model-box">
-            <img src="/img/sally/4.jpg" alt="">
-        </div>
-        <div class="model-box">
-            <img src="/img/sally/5.jpg" alt="">
-        </div>
-        <div class="model-box">
-            <img src="/img/sally/6.jpg" alt="">
+    </div>
+    <div class="model-profile-imgs">
+        <div class="model-profile-in">
+            <img src="/img/sally/3.jpg" alt="" class="model-profile-img">
         </div>
     </div>
 </section>
@@ -45,28 +37,10 @@
 <!-- model - career -->
 <section id="model-career">
 
-    <div class="model-info">
-        <div class="model-info-name">
-            <p>SALLY</p>
-            <p>살리</p>
-        </div>
-        <div class="model-info-des">
-            <div><span>Birth</span><p>1994.07.30</p></div>
-            <div><span>Height</span><p>162cm</p></div>
-            <div><span>Weight</span><p>43kg</p></div>
-            <div><span>3-inch</span><p>32-21-34</p></div>
-            <div><span>Shoe</span><p>245mm</p></div>
-            <div><span>Nation</span><p>Georgia</p></div>
-            <div><span>Visa</span><p>D-4</p></div>
-            <div><span>Languages</span><p>영어, 조지아어,러시아어, 한국어</p></div>
-            <div><span>취미</span><p>여행하기, 그림그리기</p></div>
-            <div><span>특기</span><p>사진 찍기, 통역/번역, 연기</p></div>
-            <div><span>좌우명</span><p>If you can dream it, you can do it. <br> 꿈꿀 수 있다면, 해낼 수 있다. <br>-Walt Disney</p></div>
-        </div>
-    </div>
+    
 
     <div class="model-careers">
-        <h2>경력</h2>
+        <h2>FILMOGRAPHY</h2>
         
         <div class="model-career-boxes">
             <h3><span>ㅡ</span>모델</h3>
@@ -126,6 +100,12 @@
 <section id="model-gallery">
     <h3>갤러리</h3>
     <div class="model-gallery-box">
+        <div><img src="/img/sally/1.jpg" alt=""></div>
+        <div><img src="/img/sally/2.jpg" alt=""></div>
+        <div><img src="/img/sally/3.jpg" alt=""></div>
+        <div><img src="/img/sally/4.jpg" alt=""></div>
+        <div><img src="/img/sally/5.jpg" alt=""></div>
+        <div><img src="/img/sally/6.jpg" alt=""></div>
         <div><img src="/img/sally/7.jpg" alt=""></div>
         <div><img src="/img/sally/8.jpg" alt=""></div>
         <div><img src="/img/sally/9.jpg" alt=""></div>
@@ -142,16 +122,28 @@
     </div>
 </section>
 
+<!-- model-video -->
 <section id="model-video">
+    <div class="main-box">
+        <div class="main-box-title">
+            <h3>VIDEO</h3>
+            <div></div>
+        </div>
 
+        <div class="model-video-box">
+            <iframe width="1182" height="665" src="https://www.youtube.com/embed/eJkiXmFvo44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>  
+    </div>
 </section>
 
-<section id="model-print">
-
-</section>
-
+<!-- model-contact -->
 <section id="model-contact">
-
+    <div class="main-box">
+        <div class="main-box-title">
+            <h3>CONTACT</h3>
+            <div></div>
+        </div>
+    </div>
 </section>
 
 <script src="/js/model.js"></script>

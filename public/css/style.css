@@ -40,7 +40,7 @@ button {
 header {
     width: 100%;
     height: 70px;
-    background-color: #ccc;
+    background-color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -51,17 +51,178 @@ header {
     #header-menu > li  {
         float: left;
         margin: 0 17px;
+        height: 40px;
+        display: block;
+        line-height: 40px;
+    }
+    #header-menu > li:hover,
+    #header-menu > li.active {
+        border-bottom: 2px solid #f00;
     }
 
 /* footer */
 footer {
     width: 100%;
-    height: 100px;
+    height: auto;
     background-color: #ddd;
+    padding: 30px 0;
+}
+footer > .footer-div {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer-div > a {
+    flex: 1;
+    position: relative;
+}
+.footer-div > a > img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: .5;
+}
+.footer-div > ul {
+    flex: 5;
+}
+.footer-div > ul > li,
+.footer-div > div > p {
+    color: #898989;
+    font-size: 14px;
+    margin: 6px 0;
+}
+.footer-div > ul > li > a {
+    color: #343434;
+    font-size: 16px;
+    transition: .15s;
+}
+.footer-div > ul > li > a:hover {
+    color: #f00;
+    font-size: 16px;
+}
+.footer-div > div {
+    flex: 4;
+}
+.footer-div > div > * {
+    float: right;
+}
+#footer-sns {
+    margin: 12px 0;
+}
+#footer-sns > div {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #343434;
+    border-radius: 50%;
+    float: left;
+    margin: 0 6px;
+    color: #343434;
+    text-align: center;
+    line-height: 37px;
+    cursor: pointer;
 }
 
 /* main-section */
 #main {
     width: 100%;
     height: 500px;
+    background-color: #ddd;
+    color: #fff;
+    line-height: 500px;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 100;
+}
+
+#main-contact {
+    color: #fff;
+    background-color: #000;
+}
+.main-box {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.main-box-title {
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+.main-box-title > h3 {
+    font-weight: 800;
+}
+.main-box-title > div {
+    width: 120px;
+    height: 2px;
+    background-color: #f00;
+    margin: 20px auto;
+}
+
+.main-contact-boxes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.main-contact-boxes > div {
+    flex: 1;
+    margin: 0 15px;
+}
+.contact-box {
+    margin-bottom: 21px;
+}
+.contact-box > p  {
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 6px;
+}
+.contact-box > p  > span {
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    background-color: #f00;
+    border-radius: 50%;
+    margin-left: 6px;
+}
+.contact-box > input,
+.contact-box > textarea {
+    width: 100%;
+    background: none;
+    border: 1px solid #fff;
+    height: 30px;
+    color: #fff;
+    padding: 3px;
+}
+.contact-box > textarea {
+    height: 70px;
+    resize: none;
+}
+.contact-box > input[type=number]{
+    width: 70px;
+}
+.contact-box > input::-webkit-outer-spin-button,
+.contact-box > input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.contact-box > span {
+    margin: 0 10px;
+}
+
+.main-contact-boxes > div > button {
+    width: 100%;
+    height: 30px;
+    background-color: #f00;
+    color: #fff;
+}
+
+.main-contact-boxes > div > iframe {
+    width: 100%;
+    height: 100%;
 }

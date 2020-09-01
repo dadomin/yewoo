@@ -11,9 +11,6 @@ function log(msg) {
 
 class App {
 	constructor(){
-		// $(document).on("scroll", ()=>{
-			
-		// });
 	}
 }
 

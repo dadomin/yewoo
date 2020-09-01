@@ -4,14 +4,14 @@ namespace Damin\Controller;
 
 use Damin\DB;
 
-class ModelController extends MasterController {
+class ProfileController extends MasterController {
     public function anna() 
     {
-        $this->render("model-anna",[]);
+        $this->render("anna",[]);
     }
 
     public function sally()
     {
-        $this->render("model-sally", []);
+        $this->render("sally", []);
     }
 }

@@ -16,5 +16,5 @@ Route::get("/influencer", "MainController@influencer");
 Route::get("/notice", "MainController@notice");
 
 // 모델
-Route::get("/model/anna", "ModelController@anna");
-Route::get("/model/sally", "ModelController@sally");
+Route::get("/profile/anna", "ProfileController@anna");
+Route::get("/profile/sally", "ProfileController@sally");
