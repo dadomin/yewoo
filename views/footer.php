@@ -10,9 +10,10 @@
 			</ul>
 			<div>
 				<ul id="footer-sns">
+					<div><i class="fab fa-instagram"></i></div>
+					<div><i class="fab fa-twitter"></i></div>
 					<div><i class="fab fa-facebook-f"></i></div>
 					<div><i class="fab fa-youtube"></i></div>
-					<div><i class="fab fa-instagram"></i></div>
 				</ul>
 				<p>Copyright &copy; 2020 YEWOO ENTERTAINMENT Co. Ltd. Allrights reserved.</p>
 			</div>

@@ -6,7 +6,7 @@
 </section>
 
 <ul id="pro-tab">
-    <li><a href="/musician/group">GROUP</a></li>
+    <li><a href="/musician/group" class="active">GROUP</a></li>
     <li><a href="/musician/solo">SOLO</a></li>
 </ul>
 
