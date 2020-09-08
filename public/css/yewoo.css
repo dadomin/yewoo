@@ -1,37 +1,107 @@
 /* 예우엔터테인먼트 페이지 - /yewoo */
-#yewoo-top-menu {
+
+#company-title {
     width: 100%;
-    height: 100px;
-    background-color: rgba(255,255,255,.35);
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    height: 900px;
+    overflow: hidden;
+    position: relative;
 }
-#yewoo-top-menu > li {
-    margin: 0 20px;
-    cursor: pointer;
-}
-#yewoo-1 {
+    .circle {
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #circle-1 {
+        background-color: #ffb0a8;
+        opacity: .4;
+        width: 1900px;
+        height: 1900px;
+    }
+    #circle-2 {
+        background-color: #ffb0a8;
+        opacity: .6;
+        width: 1400px;
+        height: 1400px;
+    }
+    #circle-3 {
+        background-color: #f57b6e;
+        opacity: .2;
+        animation: zoom-in-out 13s infinite;
+    }
+
+    #company-title > h3 {
+        position: absolute;
+        left: 50%;
+        top: 300px;
+        transform: translateX(-50%);
+        color: #fff;
+        font-size: 75px;
+        text-align: center;
+        line-height: 0.7;
+    }
+    #company-title > h3 > span {
+        width: 100%;
+        display: inline-block;
+        height: 1px;
+        background-color: #fff;
+        opacity: .6;
+        margin-bottom: 24px;
+    }
+    #company-title > h2 {
+        position: absolute;
+        left: 50%;
+        bottom: 280px;
+        transform: translateX(-50%);
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    @keyframes zoom-in-out {
+        0% {
+            width: 500px;
+            height: 500px;
+        }
+        
+        50% {
+            width: 2500px;
+            height: 2500px;
+        }
+
+        100% {
+            width: 500px;
+            height: 500px;
+        }
+    } 
+#company-intro {
     width: 100%;
-    height: 1000px;
-    background-color: #000;
+    height: 1300px;
+    /* background-color: #f75d4d; */
+    background-image: url(/img/page/company-intro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-#yewoo-2 {
+#company-leadership {
     width: 100%;
     height: 1000px;
     background-color: #111;
 }
-#yewoo-3 {
+#company-family {
     width: 100%;
     height: 1000px;
     background-color: #222;
 }
-#yewoo-4 {
+#company-gallery {
     width: 100%;
     height: 1000px;
     background-color: #333;
+}
+
+#company-contact {
+    width: 100%;
+    height: 1000px;
+    background-color: #000;
 }
