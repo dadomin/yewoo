@@ -14,8 +14,11 @@
 </head>
 <body>
 	
-	
-
+<!-- header-contact -->
+<!-- <ul id="header-contact">
+    <li>02 - 1234 - 1234</li>
+    <li>010 - 1234 - 1234</li>
+</ul> -->
 <!-- header -->
 <header>
     <a href="/" id="logo"><img src="/img/page/logo-red.png" alt="logo"></a>

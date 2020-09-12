@@ -40,6 +40,60 @@
     border-color: #f44336;
 }
 
+#profile-container {
+    width: 100%;
+    height: auto;
+}
+.pro {
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    position: relative;
+    
+    transition: .4s;
+}
+.pro > img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 6px solid rgba(255,255,255,0);
+}
+.p-cover {
+    position: absolute;
+    width: 100%;
+    height:100%;
+    left:0;
+    top:0;
+    background-color: rgba(0,0,0,.6);
+    text-align: center;
+    line-height: 850px;
+    transition: .4s;
+}
+.p-cover > p {
+    font-size: 250px;
+    color: rgba(255,255,255,.4);
+}
+.p-cover > a{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+.p-cover:hover {
+    opacity: 0;
+}
+.pro:hover > img {
+    border-color: #f44336;
+}
+.p-up-120 {
+    margin-top: -120px;
+}
+
 #pro-container {
     width: 100%;
     margin: 50px 0;

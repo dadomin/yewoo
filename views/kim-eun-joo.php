@@ -75,6 +75,10 @@
         <div><img src="/img/kim-eun-joo/5.png" alt=""></div>
         <div><img src="/img/kim-eun-joo/6.png" alt=""></div>
         <div><img src="/img/kim-eun-joo/7.png" alt=""></div>
+        <div><img src="/img/kim-eun-joo/8.jpg" alt=""></div>
+        <div><img src="/img/kim-eun-joo/9.jpg" alt=""></div>
+        <div><img src="/img/kim-eun-joo/10.jpg" alt=""></div>
+        <div><img src="/img/kim-eun-joo/11.jpg" alt=""></div>
     </div>
 </section>
 

@@ -36,6 +36,20 @@ button {
     margin: 0 auto;
 }
 
+/* header-contact */
+#header-contact {
+    width:100%;
+    height:45px;
+    background-color: #f44336;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#header-contact > li {
+    margin: 0 15px;
+}
+
 /* header */
 header {
     width: 100%;
@@ -125,6 +139,20 @@ footer > .footer-div {
     cursor: pointer;
     font-size: 15px;
 }
+/* #call-under {
+    width: 65px;
+    height: 65px;
+    background-color: #f44336;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    color: #fff;
+    line-height: 65px;
+    text-align: center;
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, .2);
+    cursor: pointer;
+} */
 
 /* main-section */
 #main {
