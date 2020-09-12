@@ -1,15 +1,15 @@
 <!-- top-menu -->
 <div id="model-top-menu">
-    <li>TOP</li>
-    <li>MEMBER</li>
-    <li>VIDEO</li>
-    <li>GALLERY</li>
-    <li>NEWS</li>
+    <li name="cheer-title">TOP</li>
+    <li name="cheer-member">MEMBER</li>
+    <li name="cheer-video">VIDEO</li>
+    <li name="model-gallery">GALLERY</li>
+    <li name="model-career">CAREER</li>
 </div>
 
 <section id="cheer-title">
     <div>
-        <img src="/img/cheer/1.jpeg" alt="">
+        <img src="/img/cheer/1.jpg" alt="">
     </div>
     
     <p>AFRICA CHEERLEADER</p>
@@ -34,15 +34,52 @@
 <section id="cheer-member">
     <div class="cheer-member-title">MEMBER</div>
     <div class="cheer-member-boxes">
-        <div class="cheer-member-box"></div>
-        <div class="cheer-member-box"></div>
-        <div class="cheer-member-box"></div>
-        <div class="cheer-member-box"></div>
+    <div class="profile cheer-member">
+            <div class="profile-box">
+                <img src="/img/anna/15.jpg" alt="">
+                <div class="cover">
+                    <p>프로필 보러가기</p>
+                    <a href="/profile/seo-ga-yoon" target="_blank"></a>
+                </div>
+            </div>
+            <a href="/profile/seo-ga-yoon">GAYOON</a>
+        </div>
+        <div class="profile cheer-member">
+            <div class="profile-box">
+                <img src="/img/kim-eun-joo/2.png" alt="">
+                <div class="cover">
+                    <p>프로필 보러가기</p>
+                    <a href="/profile/kim-eun-joo" target="_blank"></a>
+                </div>
+            </div>
+            <a href="/profile/anna">ENJOO</a>
+        </div>
+        <div class="profile cheer-member">
+            <div class="profile-box">
+                <img src="/img/anna/16.jpg" alt="">
+                <div class="cover">
+                    <p>프로필 보러가기</p>
+                    <a href="/profile/anna" target="_blank"></a>
+                </div>
+            </div>
+            <a href="/profile/anna">ANNA</a>
+        </div>
+        
+        <div class="profile cheer-member">
+            <div class="profile-box">
+                <img src="/img/anna/1.jpg" alt="">
+                <div class="cover">
+                    <p>프로필 보러가기</p>
+                    <a href="/profile/kim-da-min" target="_blank"></a>
+                </div>
+            </div>
+            <a href="/profile/kim-da-min">DAMIN</a>
+        </div>
     </div>
 </section>
 
 <!-- model-video -->
-<section id="model-video">
+<section id="cheer-video">
     <div class="main-box">
         <div class="main-box-title">
             <h3>VIDEO</h3>
@@ -52,6 +89,64 @@
         <div class="model-video-box">
             <iframe width="1182" height="665" src="https://www.youtube.com/embed/eJkiXmFvo44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>  
+    </div>
+</section>
+
+<section id="model-gallery">
+    <h3>갤러리</h3>
+    <div class="model-gallery-box">
+        <div><img src="/img/cheer/1.jpg" alt=""></div>
+        <div><img src="/img/cheer/2.jpg" alt=""></div>
+        <div><img src="/img/cheer/3.jpg" alt=""></div>
+        <div><img src="/img/cheer/4.jpg" alt=""></div>
+        <div><img src="/img/cheer/5.jpg" alt=""></div>
+        <div><img src="/img/cheer/6.jpg" alt=""></div>
+        <div><img src="/img/cheer/7.jpg" alt=""></div>
+        <div><img src="/img/cheer/8.jpg" alt=""></div>
+        <div><img src="/img/cheer/9.jpg" alt=""></div>
+        <div><img src="/img/cheer/10.jpg" alt=""></div>
+        <div><img src="/img/cheer/11.jpg" alt=""></div>
+        <div><img src="/img/cheer/12.jpg" alt=""></div>
+        <div><img src="/img/cheer/13.jpg" alt=""></div>
+        <div><img src="/img/cheer/14.jpg" alt=""></div>
+        <div><img src="/img/cheer/15.jpg" alt=""></div>
+        <div><img src="/img/cheer/16.jpg" alt=""></div>
+        <div><img src="/img/cheer/17.jpg" alt=""></div>
+        <div><img src="/img/cheer/18.jpg" alt=""></div>
+        <div><img src="/img/cheer/19.jpg" alt=""></div>
+        <div><img src="/img/cheer/20.jpg" alt=""></div>
+        <div><img src="/img/cheer/21.jpg" alt=""></div>
+        <div><img src="/img/cheer/22.jpg" alt=""></div>
+        <div><img src="/img/cheer/23.jpg" alt=""></div>
+        <div><img src="/img/cheer/24.jpg" alt=""></div>
+        <div><img src="/img/cheer/25.jpg" alt=""></div>
+        <div><img src="/img/cheer/26.jpg" alt=""></div>
+        <div><img src="/img/cheer/27.jpg" alt=""></div>
+        <div><img src="/img/cheer/28.jpg" alt=""></div>
+        <div><img src="/img/cheer/29.jpg" alt=""></div>
+        <div><img src="/img/cheer/30.jpg" alt=""></div>
+        <div><img src="/img/cheer/31.jpg" alt=""></div>
+        <div><img src="/img/cheer/32.jpg" alt=""></div>
+        <div><img src="/img/cheer/33.jpg" alt=""></div>
+        <div><img src="/img/cheer/34.jpg" alt=""></div>
+        <div><img src="/img/cheer/35.jpg" alt=""></div>
+        <div><img src="/img/cheer/36.jpg" alt=""></div>
+        <div><img src="/img/cheer/37.jpg" alt=""></div>
+        <div><img src="/img/cheer/38.jpg" alt=""></div>
+        <div><img src="/img/cheer/39.jpg" alt=""></div>
+        <div><img src="/img/cheer/40.jpg" alt=""></div>
+        <div><img src="/img/cheer/41.jpg" alt=""></div>
+        <div><img src="/img/cheer/42.jpg" alt=""></div>
+        <div><img src="/img/cheer/43.jpg" alt=""></div>
+        <div><img src="/img/cheer/44.jpg" alt=""></div>
+        <div><img src="/img/cheer/45.jpg" alt=""></div>
+        <div><img src="/img/cheer/46.jpg" alt=""></div>
+        <div><img src="/img/cheer/47.jpg" alt=""></div>
+        <div><img src="/img/cheer/48.jpg" alt=""></div>
+        <div><img src="/img/cheer/49.jpg" alt=""></div>
+        <div><img src="/img/cheer/50.jpg" alt=""></div>
+        <div><img src="/img/cheer/51.jpg" alt=""></div>
+        <div><img src="/img/cheer/52.jpg" alt=""></div>
     </div>
 </section>
 
@@ -96,3 +191,5 @@
     
 
 </section>
+
+<script src="/js/model.js"></script>

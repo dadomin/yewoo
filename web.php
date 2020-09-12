@@ -18,3 +18,8 @@ Route::get("/notice", "MainController@notice");
 // 모델
 Route::get("/profile/anna", "ProfileController@anna");
 Route::get("/profile/sally", "ProfileController@sally");
+Route::get("/profile/sun-woo-seon", "ProfileController@sunwooseon");
+Route::get("/profile/kim-eun-joo", "ProfileController@kimeunjoo");
+Route::get("/profile/seo-ga-yoon", "ProfileControlelr@seogayoon");
+Route::get("/profile/kim-da-min", "ProfileController@kimdamin");
+Route::get("/profile/jang-dong-hyuk", "ProfileController@jangdonghyuk");

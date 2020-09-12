@@ -2,7 +2,16 @@
 
 <!-- ma in -->
 <section id="main">
-    디자인 요소
+    <div id="main-slide">
+        <div>
+            <img src="/img/page/main-cheer.png" alt="">
+        </div>
+        <div>
+            <img src="/img/page/main-girl.png" alt="">
+        </div>
+    </div>
+    <span class="main-slide-left"><i class="fas fa-chevron-left"></i></span>
+    <span class="main-slide-right"><i class="fas fa-chevron-right"></i></span>
 </section>
 
 
@@ -74,3 +83,5 @@
 
     </div>
 </section>
+
+<script src="/js/home.js"></script>

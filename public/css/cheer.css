@@ -43,10 +43,10 @@
     height: auto;
     display: flex;
 }
-.cheer-member-box {
-    display: inline-block;
+.profile.cheer-member {
     width: 250px;
+    height: 375px;
+}
+.cheer-member > .profile-box {
     height: 340px;
-    margin: 30px 12px;
-    background-color: #ccc;
 }

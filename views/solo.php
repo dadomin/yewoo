@@ -17,7 +17,7 @@
 
         <div class="profile">
             <div class="profile-box">
-                <img src="/img/jo-jung-min/24.jpg" alt="" class="p-up">
+                <img src="/img/jo-jung-min/24.jpg" alt="" class="p-up-20">
                 <div class="cover">
                     <p>프로필 보러가기</p>
                     <a href="/" target="_blank"></a>
@@ -29,7 +29,7 @@
 
         <div class="profile">
             <div class="profile-box">
-                <img src="/img/kim-sang-bae/3.jpg" alt=""class="p-close-up p-up">
+                <img src="/img/kim-sang-bae/3.jpg" alt=""class="p-up-10">
                 <div class="cover">
                     <p>프로필 보러가기</p>
                     <a href="/" target="_blank"></a>
@@ -40,7 +40,7 @@
 
         <div class="profile">
             <div class="profile-box">
-                <img src="/img/park-hye-shin/4.jpg" alt="" class="p-close-up">
+                <img src="/img/park-hye-shin/4.jpg" alt="" class="">
                 <div class="cover">
                     <p>프로필 보러가기</p>
                     <a href="/" target="_blank"></a>
