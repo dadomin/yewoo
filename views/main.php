@@ -14,8 +14,6 @@
     <span class="main-slide-right"><i class="fas fa-chevron-right"></i></span>
 </section>
 
-
-
 <!-- main-notice -->
 <section id="main-notice">
 </section>

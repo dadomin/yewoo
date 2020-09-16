@@ -12,7 +12,7 @@
 
 <!-- musician section -->
 <section id="profile-container">
-    <!-- <div class="pro-container-in">
+    <div class="pro-container-in">
 
         <div class="profile group">
             <div class="profile-box">
@@ -26,15 +26,15 @@
         </div>
         
 
-    </div> -->
-
+    </div>
+<!-- 
     <div class="pro">
         <img src="/img/cheercoke/1.jpeg" alt="" class="p-up-120">
         <div class="p-cover">
             <p>CHEER COKE</p>
             <a href="/" target="_blank"></a>
         </div>
-    </div>
+    </div> -->
 
 
 </section>
