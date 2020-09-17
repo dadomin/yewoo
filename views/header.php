@@ -46,7 +46,7 @@
         <li><a href="/entertainer">Entertainers</a></li>
         <li><a href="/model">Models</a></li>
         <li><a href="/cheer">CheerLeader</a></li>
-        <li><a href="/influencer">Influencer</a></li>
-        <li><a href="/notice">Notice</a></li>
+        <!-- <li><a href="/influencer">Influencer</a></li> -->
+        <!-- <li><a href="/notice">Notice</a></li> -->
     </ul>
 </header>

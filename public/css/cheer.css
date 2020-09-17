@@ -54,6 +54,12 @@
     width: 250px;
     height: 375px;
 }
+.cheer-member {
+
+    width: 235px;
+    
+    position: relative;
+}
 .cheer-member > .profile-box {
     height: 340px;
 }

@@ -1,7 +1,16 @@
 
+<!-- main- -->
+<!-- <iframe width="100%" height="1100" src="https://www.youtube.com/embed/Qo4VWlxcwQQ?amp;autoplay=1&amp;playlist=lDZnM3Uuq0E&amp;loop=1 -->
+<!-- " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+<section id="main-video">
+    <video autoplay muted loop data-video="100">
+        <source src="/img/page/main.mp4" type="video/mp4">
+    </video>
+    
+</section>
 
 <!-- ma in -->
-<section id="main">
+<!-- <section id="main">
     <div id="main-slide">
         <div>
             <img src="/img/page/main-cheer.png" alt="">
@@ -12,6 +21,56 @@
     </div>
     <span class="main-slide-left"><i class="fas fa-chevron-left"></i></span>
     <span class="main-slide-right"><i class="fas fa-chevron-right"></i></span>
+</section> -->
+
+<!-- main-tab -->
+<section id="pro-title">
+    <img src="/img/page/logo-red.png" alt="">
+    <p>YEWOO FAMILY</p>
+    <div></div>
+</section>
+<section id="main-tab">
+    <!-- <div>
+        <div class="main-tab-cheer"><h3>AFRICA CHEER LEADER</h3><img class="main-tab-logo" src="/img/page/logo-white.png" alt=""></div>
+        <div><img src="/img/page/main-cheer.png" alt=""></div>
+    </div>
+    <div>
+        <div><img src="/img/page/main-girl.png" alt=""></div>
+        <div class="main-tab-girl"><h3>CHEER COKE</h3></div>
+    </div> -->
+    <div>
+        <div>
+            <img src="/img/page/main-cheer.png" alt="">
+            <div class="main-tab-cover">
+                AFRICA CHEERLEADER
+                <a href="/cheer"></a>
+            </div>
+        </div>
+        <div>
+            <img src="/img/page/main-girl.png" alt="">
+            <div class="main-tab-cover">
+                CHEER COKE
+                <a href="/cheercoke"></a>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <img src="/img/page/main-sunwooseon.png" alt="">
+            <div class="main-tab-cover">
+                SUN WOO secion
+                <a href="/sun-woo-seon"></a>
+            </div>
+        </div>
+        <div>
+            <img src="/img/page/main-cheer-2.png" alt="">
+            <div class="main-tab-cover">
+                AFRICA CHEERLEADER
+                <a href="/cheer"></a>
+            </div>
+        </div>
+    </div>
 </section>
 
 <!-- main-notice -->

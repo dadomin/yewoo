@@ -1,5 +1,6 @@
 <!-- musician title -->
 <section id="pro-title">
+    <img src="/img/page/musicians.png" alt="" class="pro-title-back">
     <img src="/img/page/logo-red.png" alt="">
     <p>MUSICIANS</p>
     <div></div>
@@ -17,8 +18,9 @@
         <div class="profile group">
             <div class="profile-box">
                 <img src="/img/cheercoke/1.jpeg" alt="" style="height:120%;margin-top:-30px;">
-                <div class="cover">
-                    <p>프로필 보러가기</p>
+                <div class="p-cover">
+                    <img src="/img/cheercoke/black.jpg" alt="" style="height:120%;margin-top:-30px;">
+                    <!-- <p>프로필 보러가기</p> -->
                     <a href="/" target="_blank"></a>
                 </div>
             </div>

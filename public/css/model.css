@@ -4,6 +4,7 @@
     height: 300px;
     text-align: center;
     padding-top: 80px;
+    position: relative;
 }
 #pro-title > p {
     margin: 30px auto;
@@ -14,6 +15,13 @@
     height: 2px;
     background-color: #f44336;
     margin: 0 auto;
+}
+.pro-title-back {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -3;
+    height: 100%;
 }
 #pro-tab {
     width: 1050px;
@@ -43,6 +51,7 @@
 #profile-container {
     width: 100%;
     height: auto;
+    margin: 50px auto;
 }
 .pro {
     width: 100%;
@@ -65,14 +74,14 @@
     height:100%;
     left:0;
     top:0;
-    background-color: rgba(0,0,0,.6);
+    /* background-color: rgba(0,0,0,.6); */
     text-align: center;
     line-height: 850px;
     transition: .4s;
 }
 .p-cover > p {
     font-size: 250px;
-    color: rgba(255,255,255,.4);
+    color: rgba(0,0,0,.3) ;
 }
 .p-cover > a{
     width: 100%;
@@ -83,6 +92,16 @@
     left: 0;
     top: 0;
     z-index: 2;
+}
+.p-cover > img {
+    height: 110%;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    z-index: 2;
+    display: block;
 }
 .p-cover:hover {
     opacity: 0;
